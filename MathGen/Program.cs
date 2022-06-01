@@ -248,7 +248,7 @@ namespace ZaverecnaPrace
             // at division, if user has set divider as 0, program will say "cannot divide by zero"
 
 
-            /*  VÝPOČET ÚSPĚŠNOSTI A ULOŽENÍ VÝSLEDKŮ DO TEXTOVÉHO SOUBORU  */
+            /*  SUCCESS RATE CALCULATION AND SAVING ALL DATA TO .TXT FILE  */
 
             Console.Write("\nMáš {0} správné odpovědi.\n", correctCounter);
 
@@ -258,7 +258,7 @@ namespace ZaverecnaPrace
 
             double successRate = (W * 100) / V;
 
-            using (StreamWriter sw = new StreamWriter("zápis_výsledků.txt", true))
+            using (StreamWriter sw = new StreamWriter("data_save.txt", true))
             {
                 
                 sw.WriteLine(DateTime.Today.ToLongDateString() + " || " + DateTime.Now.ToLongTimeString());
@@ -352,7 +352,7 @@ namespace ZaverecnaPrace
             End:
             if (mistake == 1)
             {
-                Console.WriteLine("Nelze použít při výběru matematických operací hodnotu 6 nebo vyšší.\nVypínání za 15 vteřin.");
+                Console.WriteLine("Nelze použít při výběru matematických operací hodnotu 6 nebo vyšší.");
             }
 
             Console.ReadLine();
