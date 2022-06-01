@@ -265,37 +265,37 @@ namespace ZaverecnaPrace
                 sw.WriteLine("=-=-=-=-=-=-=-");
                 if (operations == 1)
                 {
-                    sw.WriteLine(selectedOperations + "Sčítání");
+                    sw.WriteLine(selectedOperations + "Additions");
                 }
                 else if (operations == 2)
                 {
-                    sw.WriteLine(selectedOperations + "Odčítání");
+                    sw.WriteLine(selectedOperations + "Subtraction");
                 }
                 else if (operations == 3)
                 {
-                    sw.WriteLine(selectedOperations + "Násobení");
+                    sw.WriteLine(selectedOperations + "Multiplying");
                 }
                 else if (operations == 4)
                 {
-                    sw.WriteLine(selectedOperations + "Dělení");
+                    sw.WriteLine(selectedOperations + "Dividing");
 
                     if (min == 0)
                     {
-                        sw.WriteLine("Akce byla zrušena z důvodu dělení nulou!!");
+                        sw.WriteLine("Error: Attempt of dividing by zero");
                     }
                 }
                 else if (operations == 5)
                 {
-                    sw.WriteLine(selectedOperations + "Mocniny");
+                    sw.WriteLine(selectedOperations + "Power of {0}", powNum);
                 }
                 sw.WriteLine("=-=-=-=-=-=-=-");
-                sw.WriteLine("Počet zadaných příkladů: " + V);
-                sw.WriteLine("Počet správných příkladů: " + W);
-                sw.WriteLine("Úspěšnost: " + successRate + "%");
+                Console.WriteLine("Math problems assigned: " + V);
+                Console.WriteLine("Correctly counted math problems: " + W);
+                Console.WriteLine("Success Rate: " + successRate + "%");
                 sw.WriteLine("\n");
 
-            // file is being saved in "\Zaverecna_Prace_Drstak\ZaverecnaPrace\bin\Debug\zápis_výsledků.txt"
-            // the program prints in a specific order: the date and time of finishing of the math problems, what operation user had, the number of entered and correctly calculated math problems and the user's success in % always rounded down to the nearest whole number
+            // file is being saved in "\MathGen\MathGen\bin\Debug\data_save.txt"
+            // the program prints out info about last session in a specific order: the date and time of finishing of the math problems, what operation user had, the number of entered and correctly calculated math problems and the user's success in % always rounded down to the nearest whole number
 
             }
                         
@@ -342,9 +342,9 @@ namespace ZaverecnaPrace
             // program motivates user(or atleast it tries) to solving more math problems (Ln 302-340)
                      
 
-            Console.WriteLine("Počet zadaných příkladů: " + V);
-            Console.WriteLine("Počet správných příkladů: " + W);
-            Console.WriteLine("Úspěšnost: " + successRate + "%");
+            Console.WriteLine("Math problems assigned: " + V);
+            Console.WriteLine("Correctly counted math problems: " + W);
+            Console.WriteLine("Success Rate: " + successRate + "%");
             Console.WriteLine("");
 
             // console typeout of results atfer motivation
@@ -352,13 +352,13 @@ namespace ZaverecnaPrace
             End:
             if (mistake == 1)
             {
-                Console.WriteLine("Nelze použít při výběru matematických operací hodnotu 6 nebo vyšší.");
+                Console.WriteLine("You can't choose value equal or higher than 6.");
             }
 
             Console.ReadLine();
 
-            // SPŠS Betlémská, 1.I, Jakub Dršťák, VS2012 & VS2022
-            // MathGen - v1.0 (22w21a) || OpenSource
+            // Programy Used: Visual Studio 2022, .NET framework 4.5
+            // MathGen - v1.0.b (22w22a) || OpenSource
         }
     }
 }
