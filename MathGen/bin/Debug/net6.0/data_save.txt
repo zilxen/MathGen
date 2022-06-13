@@ -1,0 +1,89 @@
+Saturday, June 11, 2022 || 6:10:47 PM
+=-=-=-=-=-=-=-
+Picked exercise: Dividing
+=-=-=-=-=-=-=-
+Math problems assigned: 8
+Correctly counted math problems: 7
+Success Rate: 87%
+
+
+Saturday, June 11, 2022 || 10:49:46 PM
+=-=-=-=-=-=-=-
+Picked exercise: Additions
+=-=-=-=-=-=-=-
+Math problems assigned: 2
+Correctly counted math problems: 2
+Success Rate: 100%
+
+
+Sunday, June 12, 2022 || 3:17:22 PM
+=-=-=-=-=-=-=-
+Picked exercise: Additions
+=-=-=-=-=-=-=-
+Math problems assigned: 2
+Correctly counted math problems: 2
+Success Rate: 100%
+
+
+Sunday, June 12, 2022 || 8:40:49 PM
+=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-
+Math problems assigned: 3
+Correctly counted math problems: 0
+Success Rate: 0%
+
+
+Monday, June 13, 2022 || 6:10:37 PM
+=-=-=-=-=-=-=-
+Picked exercise: Additions
+=-=-=-=-=-=-=-
+Math problems assigned: 10
+Correctly counted math problems: 10
+Success Rate: 100%
+
+
+Monday, June 13, 2022 || 7:30:24 PM
+=-=-=-=-=-=-=-
+Picked exercise: Additions
+=-=-=-=-=-=-=-
+Math problems assigned: 3
+Correctly counted math problems: 2
+Success Rate: 66%
+
+
+Monday, June 13, 2022 || 7:55:02 PM
+=-=-=-=-=-=-=-
+Picked exercise: Power of NaN
+=-=-=-=-=-=-=-
+Math problems assigned: 5
+Correctly counted math problems: 4
+Success Rate: 80%
+
+
+Monday, June 13, 2022 || 7:55:23 PM
+=-=-=-=-=-=-=-
+Picked exercise: Additions
+=-=-=-=-=-=-=-
+Math problems assigned: 3
+Correctly counted math problems: 3
+Success Rate: 100%
+
+
+Monday, June 13, 2022 || 8:21:39 PM
+=-=-=-=-=-=-=-
+Picked exercise: Power of NaN
+=-=-=-=-=-=-=-
+Math problems assigned: 10
+Correctly counted math problems: 2
+Success Rate: 20%
+
+
+Monday, June 13, 2022 || 9:42:31 PM
+=-=-=-=-=-=-=-
+Picked exercise: Additions
+=-=-=-=-=-=-=-
+Math problems assigned: 1
+Correctly counted math problems: 1
+Success Rate: 100%
+
+
