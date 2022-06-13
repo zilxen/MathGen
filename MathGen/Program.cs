@@ -12,7 +12,7 @@ namespace ZaverecnaPrace
     {
         static void Main(string[] args)
         {
-            string version = "v0.9.1";
+            string version = "v0.9.5";
 
             Console.Title = "MathGen " + version;
 
@@ -927,7 +927,7 @@ namespace ZaverecnaPrace
             }
 
             // Programs Used: Visual Studio 2022 Professional | .NET FrameWork 6.0 / Turned in in .NET FrameWork 4.5
-            // MathGen - v0.9.1 (22w23a) || OpenSource
+            // MathGen - v0.9.5 (22w24a) || OpenSource
             // https://beacons.ai/tsukichiwo; https://github.com/tsukichiwo/mathgen
         }
     }
