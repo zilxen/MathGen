@@ -1,7 +1,7 @@
 # MathGen
 Final work in first year of middle school
 
-First version was deleted by hackers from my cloud  and backup on flash drive was not able to load properly, that just my luck, so this is my second version. 
-Total work time: 48 to 60 hours
+First version was lost, so this is my second attempt. I think its pretty good, except for the goto's. 
+Total work time: roughly about week and half
 
-OpenSource
+Feel free to try it, although it will be broken, because some things that I didn't finish at time...
